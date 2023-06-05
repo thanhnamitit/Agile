@@ -1,6 +1,15 @@
 {
   "projects": {
-    "default": "agilemaster-59742"
-  }
-
+    "default": "agilemaster"
+  },
+  "targets": {
+    "agilemaster-59742": {
+      "hosting": {
+        "prod": [
+          "agilemaster"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
