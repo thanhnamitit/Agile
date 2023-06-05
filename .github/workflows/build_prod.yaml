@@ -1,0 +1,19 @@
+name: "Build Prod"
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    name: PR Checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+      - run: flutter pub get
+      - run: flutter test
+      - run: flutter build web
