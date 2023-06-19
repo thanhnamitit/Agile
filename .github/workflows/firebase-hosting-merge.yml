@@ -23,5 +23,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_AGILEMASTER_59742 }}'
           channelId: live
-          projectId: agilemaster
+          projectId: agilemaster-59742
+          target: agilemaster
 

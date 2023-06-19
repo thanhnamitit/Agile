@@ -1,7 +1,5 @@
 {
-  "projects": {
-    "default": "agilemaster"
-  },
+  "projects": {},
   "targets": {
     "agilemaster-59742": {
       "hosting": {
